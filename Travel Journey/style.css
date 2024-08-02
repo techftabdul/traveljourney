@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.nav-bar {
+    background: #F55A5A;
+    height: 55px;
+    width: 100%;
+}
+
+.nav-header {
+    color: white;
+    text-align: center;
+    padding: 18px
+}
+
+.img-card {
+    width: 135px;
+    height: 165px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: 45px; 
+    margin-bottom: 20px; 
+}
+
+.submain-content {
+    display: block;
+    margin-left: 20px;
+}
+
+.footer {
+    background: #F55A5A;
+    height: 40px
+}
+
+.footer-text {
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: #918E9B;
+}
+
+.location-map {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location-card {
+    margin-right: 2em;
+}
